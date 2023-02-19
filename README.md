@@ -47,6 +47,6 @@ If you would like to contribute to this project, please follow these steps:
 
 If you have any questions or comments about this project, please feel free to contact the author:
 
-- Name: [Lakshay Pruthi]
-- Email: [lakshay47pruthi16@gmail.com]
+- Name: Lakshay Pruthi
+- Email: lakshay47pruthi16@gmail.com
 
