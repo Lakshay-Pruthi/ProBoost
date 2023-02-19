@@ -1,27 +1,19 @@
+import TeamMember from "./TeamMember";
+
 function Team() {
     return (
         <>
-            <div className="avatar-group -space-x-6">
-                <div className="avatar">
-                    <div className="w-12">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="" />
-                    </div>
-                </div>
-                <div className="avatar">
-                    <div className="w-12">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="" />
-                    </div>
-                </div>
-                <div className="avatar">
-                    <div className="w-12">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="" />
-                    </div>
-                </div>
-                <div className="avatar">
-                    <div className="w-12">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp" alt="" />
-                    </div>
-                </div>
+        <h1 className="text-[30px] text-green-500">Team</h1>
+            <div className="overflow-hidden rounded-lg border border-gray-200 shadow-md m-5">
+                <table className="w-full border-collapse bg-white text-left text-sm text-gray-500">
+                    
+                    <tbody className="divide-y divide-gray-100 border-t border-gray-100">
+                     <TeamMember/>
+                     <TeamMember/>
+                     <TeamMember/>
+                     <TeamMember/>
+                    </tbody>
+                </table>
             </div>
         </>
     )

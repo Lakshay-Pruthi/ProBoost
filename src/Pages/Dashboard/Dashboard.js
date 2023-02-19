@@ -25,6 +25,7 @@ function Dashboard() {
             <TimeTracking />
             </div>
             </div>
+            
             <Footer/>
 
 

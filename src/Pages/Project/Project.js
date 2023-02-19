@@ -1,13 +1,15 @@
+import Footer from "../Dashboard/miniComponents/Footer";
 import Navbar from "../Dashboard/miniComponents/Navbar";
-import Timeline from "./miniComponents/Timeline";
-import Team from "./miniComponents/Team";
+import ProjectDetails from "./miniComponents/ProjectDetails";
 
 function Project(){
     return(
         <>
         <Navbar/>
-        <Timeline/>
-        <Team/>
+        <ProjectDetails />
+        <Footer/>
+      
+ 
         </>
     )
 }

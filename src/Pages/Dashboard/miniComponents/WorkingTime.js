@@ -3,11 +3,11 @@ import React, { useState, useEffect } from 'react';
 function WorkingTime() {
 
     
-        const [seconds, setSeconds] = useState(50);
+        const [seconds, setSeconds] = useState(0);
       
         useEffect(() => {
           const interval = setInterval(() => {
-            setSeconds(seconds => seconds + 1);
+            setSeconds(seconds => (seconds++)<60?seconds:0);
             
           }, 1000);
           return () => clearInterval(interval);
@@ -18,7 +18,7 @@ function WorkingTime() {
       
         useEffect(() => {
           const interval = setInterval(() => {
-            setMinutes(minutes => minutes + 1);
+            setMinutes(minutes => (minutes++)<60?minutes:0);
           }, 60000);
           return () => clearInterval(interval);
         }, []);
@@ -27,16 +27,16 @@ function WorkingTime() {
       
         useEffect(() => {
           const interval = setInterval(() => {
-            setHours(hours => hours + 1);
+            setHours(hours => (hours++)<60?hours:0);
           }, 3600000);
           return () => clearInterval(interval);
         }, []);
 
-        const [days, setDays] = useState(1);
+        const [days, setDays] = useState(12);
       
         useEffect(() => {
           const interval = setInterval(() => {
-            setDays(days => days + 1);
+            setDays(days => (days++)<60?days:0);
           }, 108000000);
           return () => clearInterval(interval);
         }, []);

@@ -2,16 +2,17 @@ import data from './Data/TaskData'
 import Task from '../Tasks/miniComponents/Task'
 import TaskHeading from '../Tasks/miniComponents/TaskHeading'
 import Navbar from '../Dashboard/miniComponents/Navbar'
+import Footer from '../Dashboard/miniComponents/Footer'
 
 function Tasks() {
 
 
 
     const Employees = data.map((d) => {
-        const { taskNumber, taskName, State, openingDate, expectedCompletionDate } = d
+        const { taskNumber, taskName, State, openingDate, expectedCompletionDate, difficulty } = d
 
         return (
-            <Task taskNumber={taskNumber} taskName={taskName} State={State} openingDate={openingDate} expectedCompletionDate={expectedCompletionDate} />
+            <Task taskNumber={taskNumber} taskName={taskName} State={State} openingDate={openingDate} expectedCompletionDate={expectedCompletionDate} difficulty={difficulty} />
         )
     })
 
@@ -37,6 +38,7 @@ function Tasks() {
 
                 </table>
             </div>
+            <Footer/>
         </>
     )
 }

@@ -1,6 +1,8 @@
 
+function Task({ taskNumber, taskName, State, openingDate, expectedCompletionDate, difficulty }) {
 
-function Task({ taskNumber, taskName, State, openingDate, expectedCompletionDate }) {
+
+
     return (
         <>
             <tr className="bg-gray-900 hover:bg-gray-800">
@@ -48,9 +50,8 @@ function Task({ taskNumber, taskName, State, openingDate, expectedCompletionDate
                    {expectedCompletionDate}
                 </td>
                 <td className="px-6 py-4">
-                    <button class="bg-transparent hover:bg-green-500 text-green-500 font-semibold hover:text-white py-1 px-6 border border-green-500 hover:border-transparent rounded rounded-[25px]">
-                        Start Working
-                    </button>
+                    <p className="text-md text-gray-300 text-center">{difficulty}</p>
+                    
                 </td>
             </tr>
         </>

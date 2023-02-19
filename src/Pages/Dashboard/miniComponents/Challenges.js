@@ -1,7 +1,7 @@
 function Challenges() {
     return (
         <>
-            <div className="bg-gray-700 rounded-lg shadow-md p-4 w-[700px]">
+            <div className="bg-gray-700 rounded-lg shadow-md p-4 w-[680px]">
                 <div className="flex justify-between mb-4">
                     <div className="text-lg font-medium text-red-400">Productivity Challenge</div>
                 </div>

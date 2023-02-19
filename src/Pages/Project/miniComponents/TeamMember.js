@@ -44,6 +44,9 @@ function TeamMember(){
                                     </span>
                                 </div>
                             </td>
+                            <td>
+                            <button className="bg-purple-500 text-gray-200 px-3 py-1 rounded-[30px]">Ask for Help</button>
+                            </td>
                         </tr>
         </>
     )

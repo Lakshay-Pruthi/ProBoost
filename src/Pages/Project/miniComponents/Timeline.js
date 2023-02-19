@@ -23,7 +23,8 @@ function loadSteps(){
 
     return (
         <>
-            <ul className="steps steps-vertical">
+        <h1  className="text-[30px] text-green-400 pb-4 pt-4 border-t-2 border-dotted border-gray-300">Project Timeline</h1>
+            <ul className="steps steps-vertical w-[70vw]">
         {loadSteps()}
                 
             </ul>

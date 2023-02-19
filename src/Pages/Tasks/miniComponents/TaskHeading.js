@@ -10,7 +10,7 @@ function TaskHeading(){
                     <th scope="col" className="px-6 py-4 font-medium ">State</th>
                     <th scope="col" className="px-6 py-4 font-medium ">Opened</th>
                     <th scope="col" className="px-6 py-4 font-medium text-center">Expected Completion Date</th>
-                    <th scope="col" className="px-6 py-4 font-medium ">Task Duration</th>
+                    <th scope="col" className="px-6 py-4 font-medium  text-center">Task Difficulty</th>
                 </tr>
             </thead>
             
