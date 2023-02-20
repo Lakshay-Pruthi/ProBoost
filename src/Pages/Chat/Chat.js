@@ -22,7 +22,7 @@ function OpenAIChat() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer ${"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"}`
+                'Authorization': `Bearer ${"YOUR API KEY"}`
             },
             body: JSON.stringify(requestBody)
         })
