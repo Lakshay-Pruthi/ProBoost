@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/ProBoost/static/js/main.ad192f23.js",
+    "static/media/PImage.jpg": "/ProBoost/static/media/PImage.214d04d83866660466a7.jpg",
+    "static/media/Badge1.webp": "/ProBoost/static/media/Badge1.4d9c2c99efdf5d40d907.webp",
+    "static/media/Badge.webp": "/ProBoost/static/media/Badge.7520206692050edf1f53.webp",
+    "static/media/Badge2.webp": "/ProBoost/static/media/Badge2.aa338d7f6657c469e6d2.webp",
+    "index.html": "/ProBoost/index.html",
+    "main.ad192f23.js.map": "/ProBoost/static/js/main.ad192f23.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ad192f23.js"
+  ]
+}
